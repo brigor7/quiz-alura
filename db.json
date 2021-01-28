@@ -4,20 +4,134 @@
   "description": "Teste os seus conhecimentos sobre React Hooks e vamos ver quantas coisas você pode pendurar",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "image": "https://media.giphy.com/media/pgG77NBwVoyj31aBns/giphy.gif",
+      "title": "Qual a melhor forma de se declarar a const resultado utilizando o useState",
       "description": "Essa é pra aquecer",
-      "answer": 2,
-      "alternatives": [".elemento", "*elemento", "#elemento", "%elemento"]
+      "answer": 1,
+      "alternatives": [
+        "const resultado = useState",
+        "const [resultado, setResultado] = useState()",
+        "let resultado = useState([get, set])",
+        "{resultado} = useState(resultado)",
+        "const resultado.useState()"
+      ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
+      "image": "https://media.giphy.com/media/5GJskjLsUpmPN249Ez/giphy.gif",
+      "title": "Qual hook expressa esses componentes de classe: componentDidMount, componentDidUpdate, componentWillUnmount?",
       "description": "Faz tempo em haha",
+      "answer": 3,
+      "alternatives": [
+        "useState",
+        "useContext",
+        "useMount",
+        "useEffect",
+        "useMemo"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/12KPpBIdG8kqIg/giphy.gif",
+      "title": "Como escrever o seletor form do html ",
+      "description": "Quero ver se você é bom!",
       "answer": 0,
       "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
+        ".form{...}",
+        "#form{...}",
+        "form*{...}",
+        "form{...}",
+        "*form{...}"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/nPxVvyTWo1aIU/giphy.gif",
+      "title": "Como escrever o seletor form do html ",
+      "description": "Quero ver se você é bom!",
+      "answer": 0,
+      "alternatives": [
+        ".form{...}",
+        "#form{...}",
+        "form*{...}",
+        "form{...}",
+        "*form{...}"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/26ybwwiZmci3DJdYs/giphy.gif",
+      "title": "Como escrever o seletor form do html ",
+      "description": "Quero ver se você é bom!",
+      "answer": 0,
+      "alternatives": [
+        ".form{...}",
+        "#form{...}",
+        "form*{...}",
+        "form{...}",
+        "*form{...}"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/ZmrLi7eC703u/giphy.gif",
+      "title": "Como escrever o seletor form do html ",
+      "description": "Quero ver se você é bom!",
+      "answer": 0,
+      "alternatives": [
+        ".form{...}",
+        "#form{...}",
+        "form*{...}",
+        "form{...}",
+        "*form{...}"
+      ]
+    },
+
+    {
+      "image": "https://media.giphy.com/media/bAplZhiLAsNnG/giphy.gif",
+      "title": "Como escrever o seletor form do html ",
+      "description": "Quero ver se você é bom!",
+      "answer": 0,
+      "alternatives": [
+        ".form{...}",
+        "#form{...}",
+        "form*{...}",
+        "form{...}",
+        "*form{...}"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/h9KtiB6DgiS2s/giphy.gif",
+      "title": "Como escrever o seletor form do html ",
+      "description": "Quero ver se você é bom!",
+      "answer": 0,
+      "alternatives": [
+        ".form{...}",
+        "#form{...}",
+        "form*{...}",
+        "form{...}",
+        "*form{...}"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/1iUZiXocraqiP7zy/giphy.gif",
+      "title": "Como escrever o seletor form do html ",
+      "description": "Quero ver se você é bom!",
+      "answer": 0,
+      "alternatives": [
+        ".form{...}",
+        "#form{...}",
+        "form*{...}",
+        "form{...}",
+        "*form{...}"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/k5cH1IE5hBLkA/giphy.gif",
+      "title": "Como escrever o seletor form do html ",
+      "description": "Quero ver se você é bom!",
+      "answer": 0,
+      "alternatives": [
+        ".form{...}",
+        "#form{...}",
+        "form*{...}",
+        "form{...}",
+        "*form{...}"
       ]
     }
   ],
