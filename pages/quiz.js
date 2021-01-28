@@ -28,8 +28,7 @@ function ResultWidget({ results }) {
         <ul>
           {results.map((result, index) => (
             <li key={`result__${result}`}>
-              #{index + 1} Resultado:
-              {result === true ? 'Acertou' : 'Errou'}
+              #Questão {index + 1} :{result === true ? 'Acertou' : 'Errou'}
             </li>
           ))}
         </ul>
