@@ -39,10 +39,7 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>
-          AluraQuiz -
-          {db.title}
-        </title>
+        <title>AluraQuiz -{db.title}</title>
       </Head>
       <QuizContainer>
         <QuizLogo />
@@ -61,15 +58,18 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
-            <form onSubmit={function (infosDoEvento) {
-              infosDoEvento.preventDefault();
-              router.push(`/quiz?name=${name}`);
-              console.log('Fazendo uma submissão por meio do react');
-            }}
+            <form
+              onSubmit={function (infosDoEvento) {
+                infosDoEvento.preventDefault();
+                router.push(`/quiz?name=${name}`);
+                console.log('Fazendo uma submissão por meio do react');
+              }}
             >
               <Input
                 name="nomeDoUsuario"
-                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                onChange={(infosDoEvento) =>
+                  setName(infosDoEvento.target.value)
+                }
                 placeholder="Diz ai seu nome"
                 value={name}
               />
@@ -126,7 +126,7 @@ export default function Home() {
           animate="show"
         />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/omariosouto" />
+      <GitHubCorner projectUrl="https://github.com/brigor7/" />
     </QuizBackground>
   );
 }
