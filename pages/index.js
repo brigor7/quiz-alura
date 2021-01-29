@@ -91,7 +91,7 @@ export default function Home() {
           animate="show"
         >
           <Widget.Content>
-            <h1>Quizes da Galera</h1>
+            <h1>Quiz de outros roteiros</h1>
 
             <ul>
               {db.external.map((linkExterno) => {
@@ -107,7 +107,9 @@ export default function Home() {
                       as={Link}
                       href={`/quiz/${projectName}___${githubUser}`}
                     >
-                      {`${githubUser}/${projectName}`}
+                      {githubUser === undefined || githubUser === ''
+                        ? ''
+                        : `${githubUser}/${projectName}`}
                     </Widget.Topic>
                   </li>
                 );
