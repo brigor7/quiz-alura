@@ -14,12 +14,12 @@ const Button = styled.button`
   line-height: 1;
   text-transform: uppercase;
   outline: 0;
-  transition: 0.3s;
+  transition: .3s;
   cursor: pointer;
 
   &:hover,
   &:focus {
-    opacity: 0.5;
+    opacity: .5;
   }
 
   &:disabled {
