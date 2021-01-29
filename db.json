@@ -1,34 +1,117 @@
 {
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "bg": "https://www.10wallpaper.com/wallpaper/2560x1600/1612/Snow_mountains_lakes-Nature_High_Quality_HD_Wallpaper_2560x1600.jpg",
+  "title": "ESDE - Mod X - Lei de liberdade",
+  "description": "Vamos testar seus conhecimentos sobre os roteiros deste modulo?",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://media.giphy.com/media/QIkavkylBv0Z2/giphy.gif",
+      "title": "Liberdade é a faculdade que permite ao individuo decidir ou agir conforme",
+      "description": "Essa esta no roteiro 1",
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "A solicitação dos amigos",
+        "A propria vontade",
+        "O Desejo dos vizinhos"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media.giphy.com/media/LcGFscTzOn9xm/giphy.gif",
+      "title": "A lei da liberdade é bem compreendida quando aprendemos a fazer relaçao entre a liberdade de pensar e de consciência",
+      "description": "Também está no roteiro 1",
+      "answer": 1,
+      "alternatives": ["Falso", "Verdadeiro"]
+    },
+    {
+      "image": "https://media.giphy.com/media/l0Exh0jvgGY43qKPe/giphy.gif",
+      "title": "Quanto a liberdade de pensar e liberdade de consciência: ",
+      "description": "Também está no roteiro 1...",
+      "answer": 3,
+      "alternatives": [
+        "As duas são limitadas",
+        "As duas são ilimitadas",
+        "A 1a é limitada e a 2a é ilimitada",
+        "A 1a é ilimitada e a 2a sofre restrições que depende da evolução do espírito ",
+        "NDA"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/l3vQXKPdzpShJtTCE/giphy.gif",
+      "title": "O livre arbitrio é: ",
+      "description": "Essa esta no roteiro 2",
+      "answer": 4,
+      "alternatives": [
+        "Faculdade que o individuo tem de determinar sua própria conduta",
+        "Condição básica para que a pessoa programe  a sua vida e construa seu futuro",
+        "A possibilidade de escolher entre duas ou mais situações",
+        "Entender que os direitos e limitações pessoais devem ser respeitados pelas regras de vida em sociedade.",
+        "Todas as alternativas estão corretas"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUA7b4arnbo3THfzi0/giphy.gif",
+      "title": "Deus nos deu a liberdade e o livre arbitrio ",
+      "description": "Essa esta no roteiro 2",
+      "answer": 4,
+      "alternatives": [
+        "Como instrumento de felicidade",
+        "Visão mais lúcida sobre nós e os outros",
+        "Entender que papel devemos exercer na sociedade",
+        "Quais são os nossos limites e possibilidades",
+        "Todas as alternativas estão corretas"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/TnDoEoXfT7YoE/giphy.gif",
+      "title": "A fatalidade é:",
+      "description": "Essa está no roteiro 3",
+      "answer": 1,
+      "alternatives": [
+        "Algo que Deus quis que acontecesse",
+        "A escolha que o espírito fez, ao encarnar, desta ou daquela prova para sofrer.",
+        "É algo que a pessoa não pode mudar"
+      ]
+    },
+
+    {
+      "image": "https://media.giphy.com/media/1300w1HkjihpIY/giphy.gif",
+      "title": "Há provas de natureza física e moral. Quanto as de natureza moral e as tentações:",
+      "description": "Essa está no roteiro 3",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "O espírito tem livre arbitrio para resistir e não cair no mal",
+        "Não há como resistir ao mal",
+        "Não é culpa do espírito agir conforme suas más tendências, prejudicando os outros."
       ]
+    },
+    {
+      "image": "https://media.giphy.com/media/XcsdCc78BtNBu/giphy.gif",
+      "title": "Quanto ao trabalho: ",
+      "description": "Essa está no roteiro 3",
+      "answer": 3,
+      "alternatives": [
+        "Não é necessário ao espírito, pode viver na inércia",
+        "É o emprego que gera salario no fim do mês",
+        "São as tarefas de casa... que nunca terminam",
+        "É necessário ao aprendizado do espirito assim como o alimento é indispensável ao corpo físico.",
+        "Nenhuma das alternativas"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/6j1OkiHXofa5W/giphy.gif",
+      "title": "A lei de ação ou reação, ou principio de causa e efeito, NÃO esta relacionada a Lei de Liberdade",
+      "description": "Essa está no roteiro 4",
+      "answer": 0,
+      "alternatives": ["Errado", "Correto"]
+    },
+    {
+      "image": "https://media.giphy.com/media/J06OTlz6T986wYLJAn/giphy.gif",
+      "title": "Se a dor é a moeda pela qual resgatamos o passado, fazer o bem diminui esse débito?",
+      "description": "Essa está no roteiro 4",
+      "answer": 1,
+      "alternatives": ["falso", "verdadeiro"]
     }
   ],
-  "external": [
-    ""
-  ],
+  "external": [""],
   "theme": {
     "colors": {
       "primary": "#0d47a1",
